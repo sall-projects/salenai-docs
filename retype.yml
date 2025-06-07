@@ -1,0 +1,22 @@
+input: .
+output: .retype
+
+url: docs.salenai.com
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: Salenai
+  label: Docs
+
+links:
+- text: Go Back to Salenai Website
+  link: https://salenai.com
+  icon: browser
+
+footer:
+  copyright: "&copy; Copyright Salenai {{ year }}. All rights reserved."
+
+favicon: static/favicon.png
