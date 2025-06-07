@@ -94,4 +94,4 @@ Once it's ready, your dashboard will show you the link to your brand new, person
 
 Okay, you're in! Your instance is running. Now it's time to connect it to OpenRouter and start chatting. Our next guide will walk you through that process step-by-step.
 
-[➡️ **Next Up: Setting Up Your SillyTavern**](./Setting-up-your-sillytavern.md)
+[➡️ **Next Up: Setting Up Your SillyTavern**](./Setting-up-sillytavern)
