@@ -35,17 +35,6 @@ This part is super easy.
 
 This is the secret sauce. A good preset dramatically improves the AI's creativity, coherence, and ability to follow instructions for roleplaying.
 
-### How to Import a Preset
-
-Most preset creators will provide a `.json` file for you to download. The process is simple:
-
-1.  In the top bar, click the **"A"** icon to open the **"Prompt Formatting"** panel.
-2.  At the bottom of this panel, find the "Import" button.
-3.  Click it and upload the `.json` file you downloaded. The settings will be applied instantly.
-4.  Give the preset a name at the top of the panel and click **"Save"**.
-
-> ![SCREENSHOT: The Prompt Formatting panel with an arrow pointing to the Import and Save buttons.](./img/st-import-preset.png)
-
 ### Recommended Presets
 
 Here are some of the best places to find amazing presets. Remember to look for the `.json` download link!
@@ -53,6 +42,17 @@ Here are some of the best places to find amazing presets. Remember to look for t
 * **Official SillyTavern Discord:** A goldmine for community-created presets. [https://discord.gg/sillytavern](https://discord.gg/sillytavern)
 * **Smiley's Presets (Sal's Choice):** Incredible for both SFW/NSFW roleplay and uses advanced features. [https://rentry.org/SmileyJB](https://rentry.org/SmileyJB)
 * **Pixi's Universal Prompts:** A fantastic resource and inspiration. [https://pixibots.neocities.org/#prompts/pixijb](https://pixibots.neocities.org/#prompts/pixijb)
+
+### How to Import a Preset
+
+Most preset creators will provide a `.json` file for you to download. To import it into SillyTavern:
+
+1.  In the top bar, click the **"Settings"** icon to open the **"Chat Completion Presets"** panel.
+2.  At the top of this panel, find the "Import" button.
+3.  Click it and upload the `.json` file you downloaded. The settings will be applied instantly.
+4.  Give the preset a name at the top of the panel and click **"Save"**.
+
+> ![SCREENSHOT: The Prompt Formatting panel with an arrow pointing to the Import and Save buttons.](./img/st-import-preset.png)
 
 ### Activating Advanced Presets (like SmileyJB's with Regex)
 
