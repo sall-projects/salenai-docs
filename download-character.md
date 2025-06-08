@@ -42,7 +42,7 @@ Look for the big **"Download Character Card"** button on the character's page an
 
 On the character's page, you'll see a picture of the character. Simply **click on the "PNG" button** right below the image. That's the one you want!
 
-> ![SCREENSHOT: A character page on chub.ai with an arrow pointing to the "PNG" download button.](./img/chub-download.png)
+> ![SCREENSHOT: A character page on chub.ai with an arrow pointing to the "PNG" download button.](./static/img/characters/3.png)
 
 !!!warning Watch Out!
 Make sure you download the actual `.png` file. Don't just right-click and "Save Image As," as that can sometimes mess up the special data inside the file. Always use the site's official download button.
