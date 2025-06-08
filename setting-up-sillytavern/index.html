@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802699353593">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802700884752">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.9.0">
 
     <!-- Primary Meta Tags -->
-    <title>Setting Up SillyTavern</title>
-    <meta name="title" content="Setting Up SillyTavern">
+    <title>Setting Up Your SillyTavern</title>
+    <meta name="title" content="Setting Up Your SillyTavern">
+    <meta name="description" content="Okay, your instance is live! This guide will take you through the final steps to get everything connected and optimized for the best possible chat...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.salenai.com/setting-up-sillytavern/">
@@ -18,21 +19,25 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.salenai.com/setting-up-sillytavern/">
-    <meta property="og:title" content="Setting Up SillyTavern">
+    <meta property="og:title" content="Setting Up Your SillyTavern">
+    <meta property="og:description" content="Okay, your instance is live! This guide will take you through the final steps to get everything connected and optimized for the best possible chat...">
+    <meta property="og:image" content="https://docs.salenai.com/static/img/setting-up-st/1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.salenai.com/setting-up-sillytavern/">
-    <meta property="twitter:title" content="Setting Up SillyTavern">
+    <meta property="twitter:title" content="Setting Up Your SillyTavern">
+    <meta property="twitter:description" content="Okay, your instance is live! This guide will take you through the final steps to get everything connected and optimized for the best possible chat...">
+    <meta property="twitter:image" content="https://docs.salenai.com/static/img/setting-up-st/1.png">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../static/favicon.png" rel="icon">
-    <link href="../resources/css/retype.css?v=3.9.0.802699353593" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.9.0.802700884752" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.9.0.802699353593" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.9.0.802700884752" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.9.0.802699353593" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.9.0.802700884752" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -174,12 +179,130 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="setting-up-sillytavern" class="break-words">
+<doc-anchor-target id="setting-up-your-sillytavern" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-sillytavern">#</doc-anchor-trigger>
-        <span>Setting Up SillyTavern</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-your-sillytavern">#</doc-anchor-trigger>
+        <span>Setting Up Your SillyTavern</span>
     </h1>
 </doc-anchor-target>
+<p>Okay, your instance is live! This guide will take you through the final steps to get everything connected and optimized for the best possible chat experience.</p>
+<hr>
+<doc-anchor-target id="part-1-connecting-to-openrouter">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#part-1-connecting-to-openrouter">#</doc-anchor-trigger>
+        <span>Part 1: Connecting to OpenRouter</span>
+    </h2>
+</doc-anchor-target>
+<p>First, let&#x27;s tell SillyTavern how to talk to the AI models.</p>
+<doc-anchor-target id="step-1-open-api-connections">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1-open-api-connections">#</doc-anchor-trigger>
+        <span>Step 1: Open API Connections</span>
+    </h3>
+</doc-anchor-target>
+<p>Once you&#x27;re logged into your SillyTavern instance, look for the API settings button in the top bar. It usually looks like a plug or a cloud icon. Click it.</p>
+<doc-anchor-target id="step-2-connect-to-openrouter">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-connect-to-openrouter">#</doc-anchor-trigger>
+        <span>Step 2: Connect to OpenRouter</span>
+    </h3>
+</doc-anchor-target>
+<p>This part is super easy.</p>
+<ol>
+<li>For the <strong>API</strong>, make sure <strong>&#x27;Chat Completion&#x27;</strong> is selected.</li>
+<li>For the <strong>Source</strong>, select <strong>&#x27;OpenRouter&#x27;</strong> from the dropdown list.</li>
+<li>Click the <strong>&quot;Authorize&quot;</strong> button. A new window will pop up asking you to log into OpenRouter and approve the connection.</li>
+<li>Once authorized, click the big <strong>&quot;Connect&quot;</strong> button. A new model dropdown menu should appear. If it does, you&#x27;re connected!</li>
+<li>Choose your preferred model from the dropdown. You can check the <a href="https://openrouter.ai/models">OpenRouter models page</a> to see what&#x27;s available.</li>
+</ol>
+<blockquote>
+<p><img src="../static/img/setting-up-st/1.png" alt="SCREENSHOT: The SillyTavern API settings panel showing a successful connection." /></p>
+</blockquote>
+<hr>
+<doc-anchor-target id="part-2-supercharging-your-prompts--jailbreaks">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#part-2-supercharging-your-prompts--jailbreaks">#</doc-anchor-trigger>
+        <span>Part 2: Supercharging Your Prompts &amp; Jailbreaks</span>
+    </h2>
+</doc-anchor-target>
+<p>This is the secret sauce. A good preset dramatically improves the AI&#x27;s creativity, coherence, and ability to follow instructions for roleplaying.</p>
+<doc-anchor-target id="how-to-import-a-preset">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-import-a-preset">#</doc-anchor-trigger>
+        <span>How to Import a Preset</span>
+    </h3>
+</doc-anchor-target>
+<p>Most preset creators will provide a <code v-pre>.json</code> file for you to download. The process is simple:</p>
+<ol>
+<li>In the top bar, click the <strong>&quot;A&quot;</strong> icon to open the <strong>&quot;Prompt Formatting&quot;</strong> panel.</li>
+<li>At the bottom of this panel, find the &quot;Import&quot; button.</li>
+<li>Click it and upload the <code v-pre>.json</code> file you downloaded. The settings will be applied instantly.</li>
+<li>Give the preset a name at the top of the panel and click <strong>&quot;Save&quot;</strong>.</li>
+</ol>
+<blockquote>
+<p><img src="./img/st-import-preset.png" alt="SCREENSHOT: The Prompt Formatting panel with an arrow pointing to the Import and Save buttons." /></p>
+</blockquote>
+<doc-anchor-target id="recommended-presets">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#recommended-presets">#</doc-anchor-trigger>
+        <span>Recommended Presets</span>
+    </h3>
+</doc-anchor-target>
+<p>Here are some of the best places to find amazing presets. Remember to look for the <code v-pre>.json</code> download link!</p>
+<ul>
+<li><strong>Official SillyTavern Discord:</strong> A goldmine for community-created presets. <a href="https://discord.gg/sillytavern">https://discord.gg/sillytavern</a></li>
+<li><strong>Smiley&#x27;s Presets (Sal&#x27;s Choice):</strong> Incredible for both SFW/NSFW roleplay and uses advanced features. <a href="https://rentry.org/SmileyJB">https://rentry.org/SmileyJB</a></li>
+<li><strong>Pixi&#x27;s Universal Prompts:</strong> A fantastic resource and inspiration. <a href="https://pixibots.neocities.org/#prompts/pixijb">https://pixibots.neocities.org/#prompts/pixijb</a></li>
+</ul>
+<doc-anchor-target id="activating-advanced-presets-like-smileyjbs-with-regex">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#activating-advanced-presets-like-smileyjbs-with-regex">#</doc-anchor-trigger>
+        <span>Activating Advanced Presets (like SmileyJB&#x27;s with Regex)</span>
+    </h3>
+</doc-anchor-target>
+<p>Some of the most powerful presets require an extra step to work correctly. For example, many of Smiley&#x27;s presets use the <strong>Regex</strong> extension to modify the prompt on the fly.</p>
+<p>Here’s how to set it up:</p>
+<ol>
+<li><p><strong>Go to the Extensions Panel:</strong> In the top bar, click the icon that looks like a puzzle piece (<span class="docs-emoji">&#x1F9E9;</span>) to open the <strong>&quot;Extensions&quot;</strong> panel.</p>
+</li>
+<li><p><strong>Enable Regex:</strong> Find &quot;Regex&quot; in the list and make sure the toggle switch next to it is <strong>on (blue)</strong>.</p>
+<blockquote>
+<p><img src="./img/st-enable-regex.png" alt="SCREENSHOT: The Extensions panel with the Regex toggle enabled." /></p>
+</blockquote>
+</li>
+<li><p><strong>Configure Regex Based on the Preset:</strong> Now, go back to the Prompt Formatting panel (&quot;A&quot; icon). At the very bottom, you&#x27;ll see the Regex section. The preset you imported will have already filled this out, but you can customize it.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>tip Read the Preset&#x27;s Description!</h5>
+<p>Preset creators like Smiley often include instructions in their Rentry page, like &quot;Enable this if you want X, disable that if you want Y&quot;. This is where you toggle those features on or off in the Regex section to customize the jailbreak to your liking.</p>
+        </div>
+    </div>
+</div>
+<blockquote>
+<p><img src="./img/st-regex-options.png" alt="SCREENSHOT: The Regex section at the bottom of the Prompt Formatting panel showing toggleable options." /></p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<doc-anchor-target id="youre-done-for-real-this-time">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#youre-done-for-real-this-time">#</doc-anchor-trigger>
+        <span>You&#x27;re Done! For Real This Time!</span>
+    </h3>
+</doc-anchor-target>
+<p>That&#x27;s it. Your instance is connected, and your prompts are supercharged. You are now 100% ready to have the best possible AI chat experience.</p>
+<p>Go find a character, and have fun! You&#x27;ve earned it.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -189,23 +312,16 @@
                             
                                 <nav class="print:hidden flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../getting-started/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../legal/tos/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Getting Started</span>
+                                                <span class="block mt-1">Terms of Service</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../support/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Support</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -246,6 +362,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Setting Up SillyTavern", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Setting Up Your SillyTavern", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
