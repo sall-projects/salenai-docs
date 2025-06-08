@@ -61,16 +61,28 @@ Some of the most powerful presets require an extra step to work correctly. For e
 Here’s how to set it up:
 
 1.  **Go to the Extensions Panel:** In the top bar, click the icon that looks like a puzzle piece (🧩) to open the **"Extensions"** panel.
-2.  **Enable Regex:** Find "Regex" in the list and make sure the toggle switch next to it is **on (blue)**.
+2.  **Import the JSON File:** In the Regex section, click the **"Import"** button and upload the `.json` file you downloaded from Smiley's Rentry page. This will add the Regex extension to your SillyTavern instance and 
 
-    > ![SCREENSHOT: The Extensions panel with the Regex toggle enabled.](./img/st-enable-regex.png)
-3.  **Configure Regex Based on the Preset:** Now, go back to the Prompt Formatting panel ("A" icon). At the very bottom, you'll see the Regex section. The preset you imported will have already filled this out, but you can customize it.
+    > ![SCREENSHOT: The Extensions panel with the Regex toggle enabled.](./static/img/setting-up-st/3.png)
+3. **Choose 'Global' for Regex:** Make sure to select **'Global'** in the Regex section. This ensures that the Regex rules apply to all chats, not just specific ones.
 
-    !!!tip Read the Preset's Description!
-    Preset creators like Smiley often include instructions in their Rentry page, like "Enable this if you want X, disable that if you want Y". This is where you toggle those features on or off in the Regex section to customize the jailbreak to your liking.
-    !!!
+    > ![SCREENSHOT: The Regex section with the Global option selected.](./static/img/setting-up-st/4.png)
 
-    > ![SCREENSHOT: The Regex section at the bottom of the Prompt Formatting panel showing toggleable options.](./img/st-regex-options.png)
+### Part 3: Configuring the Preset
+
+Now that you've imported the preset, you need to configure it properly:
+
+1. **Open Chat Completion Presets:** Click the **"Settings"** icon in the top bar and select **"Chat Completion Presets"**.
+
+2. **Select Your Imported Preset:** Choose the preset you just imported from the dropdown menu.
+
+3. **Configure the Settings:** Scroll down to the bottom of the panel. You'll see various toggles and options that need to be configured according to the preset's documentation.
+
+4. **Follow the Documentation:** Each preset comes with specific instructions on which settings to enable/disable. Check the creator's documentation (like Smiley's Rentry page) for the exact configuration needed.
+
+5. **Save Your Changes:** Once you've configured all the settings according to the documentation, click **"Save"** to apply your changes.
+
+> ![SCREENSHOT: The Chat Completion Presets panel showing configuration toggles at the bottom.](./static/img/setting-up-st/5.png)
 
 ---
 
