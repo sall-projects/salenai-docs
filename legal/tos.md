@@ -20,10 +20,10 @@ You must be of legal age to form a binding contract in your jurisdiction to use 
 To use the Service, you must register for an account by providing a valid email address, a username, and a password.
 
 ### Account Security
-You are responsible for maintaining the confidentiality of your Salenai account password and your individual SillyTavern instance credentials. You are responsible for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account or any other breach of security by contacting [tos@kyaralabs.com](mailto:tos@kyaralabs.com).
+You are responsible for maintaining the confidentiality of your Salenai account password and your individual SillyTavern instance credentials. You are responsible for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account or any other breach of security by contacting [support@kyaralabs.com](mailto:support@kyaralabs.com).
 
 ### Instance Credentials Reset
-If you lose your Salenai account password, you may use the provided password reset functionality. If you require a password reset for your specific SillyTavern instance, please contact [tos@kyaralabs.com](mailto:tos@kyaralabs.com).
+If you lose your Salenai account password, you may use the provided password reset functionality. If you require a password reset for your specific SillyTavern instance, please contact [support@kyaralabs.com](mailto:support@kyaralabs.com).
 
 ### Account Sharing
 Accounts are not to be shared between individuals.
@@ -43,7 +43,7 @@ The Service provides hosting for the SillyTavern interface ONLY. Users are solel
 The Service is currently offered in an Early Access phase. As such, Salenai does not offer any specific uptime guarantees. We will use commercially reasonable efforts to keep the Service operational, but acknowledge that interruptions and downtime may occur.
 
 ### Backups
-Salenai will perform backups of user data within their SillyTavern instance (including configurations, chat logs, and characters created within SillyTavern) for a period of thirty (30) days. Users may request a restoration of their data from these backups by contacting [tos@kyaralabs.com](mailto:tos@kyaralabs.com). While Salenai endeavors to maintain reliable backups, we do not guarantee that backups will always be successful or that data can always be restored.
+Salenai will perform backups of user data within their SillyTavern instance (including configurations, chat logs, and characters created within SillyTavern) for a period of thirty (30) days. Users may request a restoration of their data from these backups by contacting [support@kyaralabs.com](mailto:support@kyaralabs.com). While Salenai endeavors to maintain reliable backups, we do not guarantee that backups will always be successful or that data can always be restored.
 
 ### Service Modifications
 We reserve the right to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice.
@@ -78,7 +78,7 @@ New users are eligible for a seven (7) day free trial.
 After the free trial period, your subscription will automatically renew each month unless cancelled. You authorize us to charge your payment method on file for the recurring monthly subscription fee.
 
 ### Cancellation
-You may cancel your subscription at any time through your account settings or by contacting [tos@kyaralabs.com](mailto:tos@kyaralabs.com). Upon cancellation, your active SillyTavern instance data will be removed from our active servers. Backup data will be retained for thirty (30) days as per our backup policy before permanent deletion.
+You may cancel your subscription at any time through your account settings or by contacting [support@kyaralabs.com](mailto:support@kyaralabs.com). Upon cancellation, your active SillyTavern instance data will be removed from our active servers. Backup data will be retained for thirty (30) days as per our backup policy before permanent deletion.
 
 ### Refund Policy
 You may request a full refund within seven (7) days following the end of your initial 7-day free trial period (i.e., within the first 7 days of your first paid subscription period). After this period, fees are non-refundable except as required by law or at our sole discretion.
@@ -110,7 +110,7 @@ In no event shall Salenai's aggregate liability for all claims relating to the S
 ## 7. Termination
 
 ### Termination by User
-You may terminate these Terms at any time by cancelling your subscription and ceasing use of the Service. Account closure requests can be made by contacting [tos@kyaralabs.com](mailto:tos@kyaralabs.com).
+You may terminate these Terms at any time by cancelling your subscription and ceasing use of the Service. Account closure requests can be made by contacting [support@kyaralabs.com](mailto:support@kyaralabs.com).
 
 ### Termination by Salenai
 Salenai may suspend or terminate your access to the Service at any time, with or without cause, with or without notice, effective immediately, including but not limited to, for breach of these Terms (such as non-payment or violation of the Acceptable Use Policy).
@@ -132,4 +132,4 @@ These Terms shall be governed and construed in accordance with the laws of Franc
 In the event of a dispute arising out of or in connection with these Terms, the parties agree to first attempt to resolve the dispute through amicable negotiation. If the dispute cannot be resolved through negotiation within 30 days, the parties agree to submit the dispute to mediation before pursuing any other form of legal action.
 
 ## 10. Contact Information
-For any questions about these Terms of Service or other official business, please contact Salenai at: [tos@kyaralabs.com](mailto:tos@kyaralabs.com).
+For any questions about these Terms of Service or other official business, please contact Salenai at: [support@kyaralabs.com](mailto:support@kyaralabs.com).
