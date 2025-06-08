@@ -2,6 +2,7 @@
 title: Getting Started 
 order: 99
 icon: ":rocket:"
+description: "Learn how to launch your own SillyTavern instance in minutes with Salenai. Complete step-by-step guide covering OpenRouter API setup, account creation, and getting started with AI chat."
 ---
 # Getting Started with Salenai
 

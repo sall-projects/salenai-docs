@@ -2,6 +2,7 @@
 title: Setting Up SillyTavern
 order: 96
 icon: ":hammer:"
+description: "Learn how to connect SillyTavern in Salenai to OpenRouter, import advanced prompts, and configure your instance for the best AI chat experience."
 ---
 # Setting Up Your SillyTavern
 

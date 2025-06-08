@@ -2,6 +2,7 @@
 title: Support
 order: 2
 icon: ":question:"
+description: "Get help with your Salenai hosting service, SillyTavern software questions, or AI model issues. Find the right support team for faster solutions."
 ---
 
 # Getting Support

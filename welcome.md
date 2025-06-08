@@ -2,6 +2,7 @@
 title: Welcome to Salenai
 order: 100
 icon: ":tada:"
+description: "Skip the setup headaches and start chatting with AI instantly. Salenai provides a hassle-free SillyTavern experience with zero configuration required."
 ---
 # Hey! Welcome to the Salenai Docs.
 
