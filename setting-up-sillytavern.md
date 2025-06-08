@@ -52,7 +52,7 @@ Most preset creators will provide a `.json` file for you to download. To import 
 3.  Click it and upload the `.json` file you downloaded. The settings will be applied instantly.
 4.  Give the preset a name at the top of the panel and click **"Save"**.
 
-> ![SCREENSHOT: The Prompt Formatting panel with an arrow pointing to the Import and Save buttons.](./img/st-import-preset.png)
+> ![SCREENSHOT: The Prompt Formatting panel with an arrow pointing to the Import and Save buttons.](./static/img/setting-up-st/2.png)
 
 ### Activating Advanced Presets (like SmileyJB's with Regex)
 
