@@ -36,7 +36,7 @@ Once you've found the perfect character, you need to download their `.png` card 
 
 Look for the big **"Download Character Card"** button on the character's page and click it. This will save the `.png` file directly to your computer.
 
-> ![SCREENSHOT: A character page on character-tavern.com with an arrow pointing to the "Download Character Card" button.](./img/ct-download.png)
+> ![SCREENSHOT: A character page on character-tavern.com with an arrow pointing to the "Download Character Card" button.](./static/img/characters/2.png)
 
 #### On Chub.ai:
 
