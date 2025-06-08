@@ -1,3 +1,8 @@
+---
+title: Setting Up SillyTavern
+order: 96
+icon: ":hammer:"
+---
 # Setting Up Your SillyTavern
 
 Okay, your instance is live! This guide will take you through the final steps to get everything connected and optimized for the best possible chat experience.
