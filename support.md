@@ -1,6 +1,6 @@
 ---
 title: Support
-order: 98
+order: 2
 icon: ":question:"
 ---
 
