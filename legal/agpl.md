@@ -1,7 +1,7 @@
 ---
 title: AGPL & Open Source
 order: 97
-icon: ":shield-check:"
+icon: ":shield:"
 ---
 # How Salenai Works (and Our Open Source Promise)
 
