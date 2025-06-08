@@ -24,7 +24,7 @@ There are two amazing websites where the community shares thousands of character
 
 Go to either site and just look around until you find a character that seems interesting.
 
-> ![SCREENSHOT: Browse for characters on character-tavern.com or chub.ai.](./img/find-character.png)
+> ![SCREENSHOT: Browse for characters on character-tavern.com or chub.ai.](./static/img/characters/1.png)
 
 ---
 
