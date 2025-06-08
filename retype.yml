@@ -12,9 +12,12 @@ branding:
   label: Docs
 
 links:
-- text: Go Back to Salenai Website
+- text: Salenai Website
   link: https://salenai.com
   icon: browser
+- text: Discord
+  link: https://link.character-tavern.com/discord
+  icon: discord
 
 footer:
   copyright: "&copy; Copyright Salenai {{ year }}. All rights reserved."
