@@ -58,7 +58,7 @@ You've got the card! Now let's introduce them to your tavern.
 2.  Click the **"Import Character"** button. It often looks like an upload icon.
 3.  Select the `.png` file you just downloaded from your computer.
 
-> ![SCREENSHOT: The SillyTavern character selection screen with an arrow pointing to the "Import Character" button.](./img/st-import-character.png)
+> ![SCREENSHOT: The SillyTavern character selection screen with an arrow pointing to the "Import Character" button.](./static/img/characters/4.png)
 
 And... that's it! The new character will appear in your list, ready to chat.
 
